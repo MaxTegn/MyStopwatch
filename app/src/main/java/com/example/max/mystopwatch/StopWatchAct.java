@@ -54,7 +54,7 @@ public class StopWatchAct extends AppCompatActivity {
                 timerHere.stop();
                 icanchor.clearAnimation();
 
-                btnstop.animate().alpha(0).translationY(+80).setDuration(300).start();
+                btnstop.animate().alpha(0).translationY(+100).setDuration(300).start();
                 btnStart.animate().alpha(1).setDuration(300).start();
             }
         });
